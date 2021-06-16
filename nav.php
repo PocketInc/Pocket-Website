@@ -28,6 +28,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-success">
                 <ul class="dropdown-menu" aria-labelledby="productsDropdown">
                     <li><a class="dropdown-item" href="browser/">Pocket Browser</a></li>
                     <li><a class="dropdown-item" href="meet/">Pocket Meet</a></li>
+                    <div class="dropdown-divider"></div>
                     <li><a class="dropdown-item" href="#">File Transfer</a></li>
                     <li><a class="dropdown-item" href="#">FrontDis</a></li>
                 </ul>

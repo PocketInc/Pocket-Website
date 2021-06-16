@@ -44,15 +44,21 @@
           </ul>
         </div>
       </div>
-      <center><hr class="bg-light w-25"></center>
-    <h3>Blog:</h3>
+      <?php
+      $blogs = false;
+      if ($blogs) {
+      echo '<center>
+      <hr class="bg-light w-25">
+      </center>
+      <h3>Blog:</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100 bg-success">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
               <small class="text-dark">Last updated 3 mins ago</small>
@@ -76,7 +82,8 @@
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             <div class="card-footer">
               <small class="text-dark">Last updated 3 mins ago</small>
@@ -84,8 +91,14 @@
           </div>
         </div>
       </div>
-      <center><hr class="bg-light w-25"></center>
-
+      <br>
+      <center><a class="btn btn-outline-light" href="blogs/">View All</a></center>
+      ';
+      }
+      ?>
+      <center>
+        <hr class="bg-light w-25">
+      </center>
     </div>
 <?php require("footer.php"); ?>
   <script src="src/bootstrap.js"></script>
